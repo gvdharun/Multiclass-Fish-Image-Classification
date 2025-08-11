@@ -55,22 +55,24 @@ This repository contains code for an end-to-end **multiclass fish image classifi
 ## 📁 Repository Structure
 ```
 ├──  📁 Dataset/
-|        ├── 📁 data/
+|        ├── 📁 data/                      # Fish categories
 |           ├── 📁 train/
 |           ├── 📁 val/
 |           └── 📁 test/ 
 | 
-├── 📁 models/ # Saved models
+├── 📁 models/                             # Saved models
 |      ├── best_efficientnetb0.h5
 |      ├── best_inceptionv3_finetuned.h5
 |      ├── best_mobilenetv2.h5
 |      ├── best_resnet50_finetune.h5
 |      ├── best_vgg16_finetune.h5
-| 
-├── 📊 Fish_Classification.ipynb       # Jupyter notebook / Transfer learning scripts
-├── 📝fish_app.py                     # Streamlit app
-├── 📝requirements.txt
-└── 📚 README.md
+|
+├── 📁 Streamlit Output/                   # Streamlit app screenshot
+|
+├── 📊 Fish_Classification.ipynb           # Jupyter notebook / Transfer learning scripts
+├── 📝fish_app.py                          # Streamlit app
+├── 📝requirements.txt                     # module installation requirements
+└── 📚 README.md                           # Project Overview
 ```
 ---
 

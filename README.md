@@ -2,20 +2,9 @@
 
 ## 📋 Project Overview
 
-This repository contains code for an end-to-end **multiclass fish image classification** system using deep learning. Multiple state-of-the-art models—including **VGG16**, **ResNet50**, **MobileNet**, **EfficientNetB0**, and **InceptionV3**—are trained and benchmarked to classify fish species from images. The best-performing model is deployed through an interactive **Streamlit web application**.
+This repository contains code for an end-to-end **multiclass fish image classification** system using deep learning. Multiple state-of-the-art models — including **VGG16**, **ResNet50**, **MobileNet**, **EfficientNetB0**, and **InceptionV3** — are trained and benchmarked to classify fish species from images. The best-performing model is deployed through an interactive **Streamlit web application**.
 
 ---
-
-## 🗂️ Dataset
-
-- **Structure:**
-
-```
-data/
-├── train/
-├── val/
-└── test
-```
 
 - **Classes:**  
 - `animal fish`, `animal fish bass`, `fish sea_food black_sea_sprat`, `fish sea_food gilt_head_bream`, `fish sea_food hourse_mackerel`, `fish sea_food red_mullet`, `fish sea_food red_sea_bream`, `fish sea_food sea_bass`, `fish sea_food shrimp`, `fish sea_food striped_red_mullet`, `fish sea_food trout`
@@ -35,7 +24,7 @@ data/
 - 🔥 **Best Model:**  
   - **InceptionV3**: `99.84% Accuracy`, `0.0101 Loss`
 - 🎨 **Streamlit Web App**
-  - User uploads fish image
+  - User uploads a fish image
   - Displays predicted category and confidence scores
   - Shows probability table for all classes
 
@@ -43,7 +32,7 @@ data/
 
 ## 🚀 Quickstart
 
-1. Clone repository
+1. Clone the repository
 
 `git clone https://github.com/gvdharun/Multiclass-Fish-Image-Classification.git`
 
@@ -53,7 +42,7 @@ cd fish-classification
 
 `pip install -r requirements.txt`
 
-4. Train or download pretrained model
+4. Train or download a pretrained model
 
 'best_inceptionv3_finetuned.h5'
 
@@ -65,19 +54,24 @@ cd fish-classification
 
 ## 📁 Repository Structure
 ```
-fish-classification/
-├── data/ # Dataset folders
-├── models/ # Saved models
-├── notebooks/ # Jupyter experiments
-├── app/ # Streamlit app
-│ └── app.py
-├── train_cnn.py # Custom CNN training
-├── train_transfer.py # Transfer learning scripts
-├── requirements.txt
+Dataset/
+├── data/
+    ├── train/
+    ├── val/
+    └── test/ 
+
+models/ # Saved models
+├── best_efficientnetb0.h5
+├── best_inceptionv3_finetuned.h5
+├── best_mobilenetv2.h5
+├── best_resnet50_finetune.h5
+├── best_vgg16_finetune.h5
+
+Fish_Classification.ipynb       # Jupyter notebook / Transfer learning scripts
+fish_app.py                     # Streamlit app
+requirements.txt
 └── README.md
 ```
-
-
 ---
 
 ## 🏆 Results

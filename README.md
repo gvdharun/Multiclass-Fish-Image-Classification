@@ -78,7 +78,11 @@ This repository contains code for an end-to-end **multiclass fish image classifi
 
 | Model             | Accuracy (%) | Loss    |
 | ----------------- | ----------- | ------- |
+| **VGG16**| 99.65   | 0.0106 |
+| **ResNet50**| 57.55   | 1.1437 |
+| **MobileNetV2**| 99.65   | 0.0094 |
 | 🎉 **InceptionV3**| **99.84**   | **0.0101** |
+| **EfficientNetB0**| 14.50   | 2.3953 |
 
 ---
 

@@ -34,43 +34,43 @@ This repository contains code for an end-to-end **multiclass fish image classifi
 
 1. Clone the repository
 
-`git clone https://github.com/gvdharun/Multiclass-Fish-Image-Classification.git`
+    `git clone https://github.com/gvdharun/Multiclass-Fish-Image-Classification.git`
 
-cd fish-classification
+    cd fish-classification
 
 2. Install dependencies
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
 4. Train or download a pretrained model
 
-'best_inceptionv3_finetuned.h5'
+    `best_inceptionv3_finetuned.h5`
 
 6. Launch Streamlit app
 
-`streamlit run fish_app.py`
+    `streamlit run fish_app.py`
 
 ---
 
 ## 📁 Repository Structure
 ```
-Dataset/
-├── data/
-    ├── train/
-    ├── val/
-    └── test/ 
-
-models/ # Saved models
-├── best_efficientnetb0.h5
-├── best_inceptionv3_finetuned.h5
-├── best_mobilenetv2.h5
-├── best_resnet50_finetune.h5
-├── best_vgg16_finetune.h5
-
-Fish_Classification.ipynb       # Jupyter notebook / Transfer learning scripts
-fish_app.py                     # Streamlit app
-requirements.txt
-└── README.md
+├──  📁 Dataset/
+|        ├── 📁 data/
+|           ├── 📁 train/
+|           ├── 📁 val/
+|           └── 📁 test/ 
+| 
+├── 📁 models/ # Saved models
+|      ├── best_efficientnetb0.h5
+|      ├── best_inceptionv3_finetuned.h5
+|      ├── best_mobilenetv2.h5
+|      ├── best_resnet50_finetune.h5
+|      ├── best_vgg16_finetune.h5
+| 
+├── 📊 Fish_Classification.ipynb       # Jupyter notebook / Transfer learning scripts
+├── 📝fish_app.py                     # Streamlit app
+├── 📝requirements.txt
+└── 📚 README.md
 ```
 ---
 
